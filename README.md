@@ -11,5 +11,5 @@ Desarrollar una página de inicio de sesión visual.
 |--------|
 | Laura Cristina Acevedo Amaya |
 | Julián García Arguello |
-| Jeymi Juliana Rogriguez Corredor |
+| Jeimy Juliana Rodriguez Corredor |
 | Laura Sofía Rueda Cáceres |
