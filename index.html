@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validaciones</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="form-content">
+    <h1>Ingreso</h1>
+
+    <form class="form-login" id="form">
+        
+        
+        <div class="input-group">
+
+            <div class="input-container">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="Usuario" id="usuario">
+                
+            </div>
+
+            <div class="input-group">
+                <div class="input-container">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Contraseña" id="password">
+                    
+                </div>
+
+                <button class="btn" id="singIn" type="button" onclick="login()">Ingresar</button> <!--se debe colocar el onclick
+                para que realice correctamente la funcion que manda el archivo de JS-->
+
+        </div>
+
+    </form>
+
+  </div>
+
+</div>
+
+<script src="core.js"></script>
+
+</body>
+</html>
+
+<!--Login funcional :3-->
